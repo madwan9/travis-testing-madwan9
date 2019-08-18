@@ -1,2 +1,2 @@
 def test_add()
-    assert testadd.add(1,1) == 2
+    assert addtest.add(1,1) == 2
