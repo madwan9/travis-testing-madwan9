@@ -1,2 +1,2 @@
-def test_add()
+def test_add():
     assert addtest.add(1,1) == 2
