@@ -1,1 +1,1 @@
-python helloworld_broken.py
+import helloworld_broken
