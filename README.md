@@ -55,4 +55,4 @@ ASSIGNMENT
     If it fails, you can see error messages, use those to figure out your problem and go back to your github repository and make    
     changes, push those changes through to your travistest repository and restart your build once you think you've fixed your 
     problem(s).  
-   
+13) Good luck!  I'd value your opinion of if you prefer this method of turnin over canvas.
