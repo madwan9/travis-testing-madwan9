@@ -32,27 +32,25 @@ testadd.py -> this is the ACTUAL python code that you should edit in order to th
                   who didn't catch it)
 
 ASSIGNMENT
-1)  You should have setup a github account and already cloned the travistest repository to your own account.
-2)  Edit the code testadd.py so that it does what the docstring says.  
-3)  Login to: travis-ci.com
-4)  Link your github account to travis-ci.com by SIGNING UP WITH GITHUB
-5)  Once you are signed up with GITHUB, you should be on the homepage of travis-ci.com
-6)  In the upper left of the screen you should see a list of:
+1)  You should have setup a github account and already have a travis-ci.com account.
+2)  Within this repository, you should edit the code testadd.py so that it does what the docstring says.  
+3)  Once you're confident in your code, login to: travis-ci.com
+4)  In the upper left of the screen you should see a list of:
     MyRepositories     Running     +
-7)  Hit the + button to add a repository
-8)  Choose your repository named "travistest"
-9)  You should receive the option to BUILD or RESTART BUILD
+5)  Hit the + button to add a repository (if your travistest repo didn't automatically select itself)
+6)  Choose your repository named "travistest" (again, if your travistest repo didn't automatically populate)
+7)  You should receive the option to BUILD or RESTART BUILD
     - if you DON'T see this option to build (i.e. it shows you a picture of a road cone and says NO BUILDS AVAILABLE or
     something of that sort, it means you DON'T have a travis.cl file in your repository.  That file is what clues
     travis-ci.com into what to do to test your code).
-10) Go ahead and run your build to see if you've edited testadd.py correctly.  You will see a few things popup to tell you that the 
+8) Go ahead and run your build to see if you've edited testadd.py correctly.  You will see a few things popup to tell you that the 
     program is going to run a "virtual machine".  Travis is creating a virtual computer to load your code and run it through python for 
     you!  How kind of it :)
-11) If your build is successful, the code will turn GREEN and you will see the line:
+9) If your build is successful, the code will turn GREEN and you will see the line:
     test.py::FILENAME TESTED  PASSED in green
-12) If your build is NOT successful, the code will turn RED and you will see the line:
+10) If your build is NOT successful, the code will turn RED and you will see the line:
     test.py::FILENAME TESTED FAILED in red
     If it fails, you can see error messages, use those to figure out your problem and go back to your github repository and make    
     changes, push those changes through to your travistest repository and restart your build once you think you've fixed your 
     problem(s).  
-13) Good luck!  I'd value your opinion of if you prefer this method of turnin over canvas.
+11) Good luck!  I'd value your opinion of if you prefer this method of turnin over canvas.
